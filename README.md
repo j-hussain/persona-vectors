@@ -103,7 +103,6 @@ persona-vectors/
 ├── README.md
 ├── instructions.md                   # Original supervisor brief
 ├── persona_vectors_paper.pdf         # Chen et al. (2025)
-├── build_notebook.py                 # Generates the Colab notebook
 ├── persona_vectors_replication.ipynb # End-to-end Colab notebook
 ├── experiments/                      # Core replication scripts (WIP)
 ├── results/                          # Figures and summary documents
@@ -111,7 +110,7 @@ persona-vectors/
 └── notebooks/                        # Analysis notebooks
 ```
 
-The repository is driven by a single Colab notebook (`persona_vectors_replication.ipynb`) that runs the full pipeline end to end. `build_notebook.py` regenerates the notebook from source so that diffs on the code are readable as Python rather than as nbformat JSON.
+The repository is driven by a single Colab notebook (`persona_vectors_replication.ipynb`) that runs the full pipeline end to end.
 
 ## Installation and Usage
 
@@ -130,7 +129,6 @@ Select *Runtime > Run all*. The notebook writes figures, data tables and a `RESU
 git clone https://github.com/j-hussain/persona-vectors.git
 cd persona-vectors
 pip install -r requirements.txt
-python build_notebook.py      # (Re)generate the notebook from source
 ```
 
 Running the experiments locally requires a CUDA GPU with at least 16 GB of VRAM to host Gemma-2-2B in float16.

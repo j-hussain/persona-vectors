@@ -26,3 +26,6 @@ results.zip
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
+
+# Local notebook-builder script (kept on disk, not tracked)
+build_notebook.py
