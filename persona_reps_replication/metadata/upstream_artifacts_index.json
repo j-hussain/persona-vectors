@@ -1,0 +1,30 @@
+{
+  "apathetic": {
+    "extract_path": "/content/persona_vectors_src/data_generation/trait_data_extract/apathetic.json",
+    "eval_path": "/content/persona_vectors_src/data_generation/trait_data_eval/apathetic.json"
+  },
+  "evil": {
+    "extract_path": "/content/persona_vectors_src/data_generation/trait_data_extract/evil.json",
+    "eval_path": "/content/persona_vectors_src/data_generation/trait_data_eval/evil.json"
+  },
+  "hallucinating": {
+    "extract_path": "/content/persona_vectors_src/data_generation/trait_data_extract/hallucinating.json",
+    "eval_path": "/content/persona_vectors_src/data_generation/trait_data_eval/hallucinating.json"
+  },
+  "humorous": {
+    "extract_path": "/content/persona_vectors_src/data_generation/trait_data_extract/humorous.json",
+    "eval_path": "/content/persona_vectors_src/data_generation/trait_data_eval/humorous.json"
+  },
+  "impolite": {
+    "extract_path": "/content/persona_vectors_src/data_generation/trait_data_extract/impolite.json",
+    "eval_path": "/content/persona_vectors_src/data_generation/trait_data_eval/impolite.json"
+  },
+  "optimistic": {
+    "extract_path": "/content/persona_vectors_src/data_generation/trait_data_extract/optimistic.json",
+    "eval_path": "/content/persona_vectors_src/data_generation/trait_data_eval/optimistic.json"
+  },
+  "sycophantic": {
+    "extract_path": "/content/persona_vectors_src/data_generation/trait_data_extract/sycophantic.json",
+    "eval_path": "/content/persona_vectors_src/data_generation/trait_data_eval/sycophantic.json"
+  }
+}

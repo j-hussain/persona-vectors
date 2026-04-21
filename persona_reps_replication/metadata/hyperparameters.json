@@ -1,0 +1,41 @@
+{
+  "model_name": "google/gemma-2-2b-it",
+  "dtype": "float16",
+  "target_trait": "evil",
+  "cross_context_traits": [
+    "evil",
+    "sycophantic"
+  ],
+  "steering_trait": "evil",
+  "detection_trait": "hallucinating",
+  "max_new_tokens": 96,
+  "temperature": 0.8,
+  "do_sample": true,
+  "num_extraction_questions": 20,
+  "rollouts_per_question": 10,
+  "num_eval_prompts": 75,
+  "probe_max_iter": 2000,
+  "probe_random_state": 42,
+  "exp3_test_size": 0.3,
+  "steering_coefficients": [
+    0.0,
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5
+  ],
+  "transcoder_release": "gemma-scope-2b-pt-transcoders",
+  "transcoder_width": "width_16k",
+  "transcoder_layers_of_interest": [
+    0,
+    6,
+    13
+  ],
+  "top_k_features": 10,
+  "judge_model": "gpt-4.1-mini",
+  "judge_batch_size": 10,
+  "base_dir": "/content/persona_reps_replication",
+  "timestamp": "20260420_163827",
+  "quick_mode": false
+}

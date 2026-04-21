@@ -1,0 +1,7 @@
+{
+  "name": "google/gemma-2-2b-it",
+  "num_layers": 26,
+  "hidden_dim": 2304,
+  "middle_layer": 13,
+  "dtype": "torch.float16"
+}

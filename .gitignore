@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Local Claude Code settings and notes
+.claude/
+
+# Old versions and Colab download artifacts
+v0/
+v0_*.zip
+results.zip
+*.zip
+
+# Large pickle caches (regenerate by re-running the notebook)
+*.pkl
+
+# Local env files
+.env
+.env.local
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
